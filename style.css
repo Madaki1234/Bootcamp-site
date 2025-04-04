@@ -1,0 +1,37 @@
+*{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+:root{
+    --bg-light: #fff;
+    --bg-dark: #363434;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-light);
+    overflow-x: hidden;
+}
+
+.read-more{
+    transition: .5s;
+}
+
+.read-more:hover{
+    background-color: aliceblue !important;
+    color: gray !important;
+    border: 1px solid gray;
+}
+
+@media(max-width: 576px) {
+    .newsletter-img{
+        visibility: hidden;
+    }
+    .news-input{
+        width: 50%;
+    }
+}
