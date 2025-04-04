@@ -3,13 +3,3 @@ node_modules/
 
 # Ignore all png files
 *.png
-
-# Ignore all png files in the images folder
-images/*.png
-
-# Ignore all png files except these files
-!images/undraw_feedback_tmp7.png
-!images/undraw_female-avatar_7t6k.png
-!images/undraw_gatsby-js_wd5s.png
-!images/undraw_java-script-frameworks_i8a4.png
-!images/undraw_programming_65t2.png
